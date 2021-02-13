@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* For all pages */
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+head,
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header {
+    text-align: center;
+}
+
+.button {
+        color: #fff;
+        text-decoration: none;
+        user-select: none;
+        background: rgb(212,75,56);
+        padding: 5px 10px;
+        outline: none;
+}
+
+.button:hover { background: rgb(232,95,76); }
+.button:active { background: rgb(152,15,0); }
+
+.menu {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* footer */
+
+.footer {
+    width: 1000px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* index */
+
+.img {
+    width: 250px;
+    height: 300px;
+}
+
+.content {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.goods {
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+/* goods */
+
+.imgMain {
+    width: 500px;
+}
+
+.goodsMain {
+    display: flex;
+}
+
+.nameMain {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.priceMain {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.descrip {
+    display: flex;
+    text-align: center;
+    padding-left: 150px;
+    padding-top: 200px;
+}
+
+.imgPrice {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonForm {
+    display: flex;
+    justify-content: center;
+}
+
+.buy {
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+
+/* reviews */
+
+.reviewAll {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewStyle {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.form {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textareaReview {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
